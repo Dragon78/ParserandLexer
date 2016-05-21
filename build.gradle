@@ -1,0 +1,7 @@
+apply plugin: 'java'
+sourceSets {
+    main.java.srcDirs = ['src','target\generated-sources\antlr4']
+    main.resources.srcDirs = ['src','target\generated-sources\antlr4']
+    test.java.srcDirs = ['tests/java']
+    test.resources.srcDirs = ['tests/resources']
+}
